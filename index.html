@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <script data-main="app" src="lib/require.js"></script>
+    </head>
+    <body>
+		<div class="container">
+			<h2>Weather App</h2>
+			<div id="locatioInput" style="display:none" class="form-group">
+				
+				<input type="text" name="locationName" id="locationName" placeholder="Location Name" class="form-control"				/>
+			</div>
+		<div class="panel panel-default">	
+				<div class="panel-heading" id="locatioName">&nbsp;</div>
+			<table class="table table-border">
+				<tr><th>Humidity</th><td id="humidity"></td></tr>
+				<tr><th>Pressure</th><td id="pressure"></td></tr>
+				<tr><th>Temp</th><td id="temp"></td></tr>
+				<tr><th>Temp Max</th><td id="temp_max"></td></tr> 
+				<tr><th>Temp Min</th><td id="temp_min"></td></tr>
+				<tr><th>Visibility</th><td id="visibility"></td></tr>
+			</table>
+		</div>
+		</div>
+		
+    </body>
+</html>
